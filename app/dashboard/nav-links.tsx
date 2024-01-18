@@ -47,6 +47,12 @@ import clsx from 'clsx';
  
 // ...
  
+const links = [
+  { name: 'Inicio', href: '/home', icon: HomeIcon },
+  { name: 'Grupo de Usuarios', href: '/user-group', icon: UserGroupIcon },
+  { name: 'Documento Duplicado', href: '/duplicate-doc', icon: DocumentDuplicateIcon },
+];
+
 export default function NavLinks() {
   const pathname = usePathname();
  
